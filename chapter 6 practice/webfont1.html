@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>웹 폰트 사용하기</title>
+    <style>
+      @font-face {
+        font-family: 'Maplestory Bold'; /* 글꼴 */
+        src: url('Maplestory Bold.ttf') format('truetype'); /* 웹 폰트 경로 */
+       }
+      .w-font {
+        font-family:'Maplestory Bold', sans-serif; /* 웹 폰트 지정 */
+      }
+      p {
+        font-size:30px; /* 글자 크기 */
+      }
+    </style>
+</head>
+<body>
+  <p >메이플스토리 폰트</p>
+  <p class="w-font">메이플스토리</p>
+</body>
+</html>
