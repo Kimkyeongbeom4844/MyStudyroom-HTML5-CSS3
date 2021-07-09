@@ -1,0 +1,113 @@
+body{
+	font-family:"맑은 고딕", "고딕", "굴림";
+}
+header {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #069;
+	padding: 10px;
+	overflow: hidden;
+}
+header h1{
+	width:40%;
+	float:left;	
+	color:#fff;
+}
+
+header nav {
+	width:60%;
+	float:right;	
+}
+
+nav ul{
+	list-style-type:none;	
+}
+
+nav ul li{
+	display: inline;
+	float: left;
+	margin: 15px;
+}
+
+
+nav ul li a{
+	color:white;
+	text-decoration:none;	
+}
+p {
+	font-size:15px;
+	line-height:20px;
+}
+dt {
+	font-weight:bold;
+	color:purple;
+}
+
+h1{
+	font-size:2em;	
+}
+
+section{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	border:5px solid #333;
+	padding:5px;
+	overflow:hidden;
+}
+article h3{
+	background-image:url(images/bg.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:30px;
+}
+aside{
+	clear:both;
+	height:auto;
+	padding:10px;
+}
+footer{
+	clear:both;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;	
+	margin-top:0;
+	padding:10px;
+	background-color:#333;
+	color:white;	
+	text-align:center;
+}
+#pet1 {
+	border: black solid 3px;
+	border-radius: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	margin-left: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#pet2 {
+	border: purple 3px;
+	border-style: dashed;
+	border-width: thin;
+	border-radius: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	margin-left: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#pet3 {
+	border: green solid 3px;
+	margin-top: 15px;
+	margin-bottom: 1px;
+	margin-right: 20px;
+	margin-left: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
